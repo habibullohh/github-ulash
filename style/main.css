@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1e1e1e;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.header {
+  width: 1920px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  background-color: #0A121F;
+  
+}
+
+.header-link {
+  font-weight: 600;
+  font-size: 22.5455px;
+  line-height: 31px;
+  color: #3A68B8;
+
+}
+
+.header-list {
+  display: flex;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+
+}
+
+.header-sign {
+  width: 112px;
+  height: 52px;
+  left: 1421px;
+  top: 24px;
+  background: #3A68B8;
+  border-radius: 5px;
+}
+
+.header-sign-text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.btn{
+  background: #3A68B8;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #FFFFFF;
+  display: inline-block;
+}
+.hero {
+  background-color: #09101D;
+  align-items: center;
+}
+
+.hero-container {
+  padding-top: 160px;
+  padding-bottom: 108px;
+  background-image: url('../img/hero-bg.svg');
+  background-repeat: no-repeat;
+  background-position: right -131px center ;
+}
+
+.hero-info {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #3A68B8;
+margin-bottom: 10px;
+}
+.hero-title{
+  font-weight: 800;
+font-size: 55px;
+line-height: 130%;
+color: #FFFFFF;
+margin-bottom: 40px;
+width: 604px;
+}
+.hero-text{
+  font-weight: 600;
+font-size: 18px;
+line-height: 160%;
+color: #FFFFFF;
+opacity: 0.7;
+width: 558px;
+margin-bottom: 50px;
+}
+.hero-btn{
+ margin-left: 20px;
+ padding: 15px 30px 15px 66px;
+ background-repeat: no-repeat;
+ background-image: url('../img/play.svg');
+ background-position: 30px ;
+ ;
+}
+.hero-list{
+  padding-bottom: 99px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
